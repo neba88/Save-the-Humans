@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Save the Humans.exe" version="1.0.0.0" publicKeyToken="90c98a3d953c08ef" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Save the Humans" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Save the Humans.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Save the Humans.exe" size="216008">
+      <assemblyIdentity name="Save the Humans" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L8WgzHqmaIUkMkKMI+O2wi+QoleqdDRz1AbN5l1p8+U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Logo.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MlBIv8hQ3z32QZmSE3ohZDrNgQZ2iCeJqo5E8VjIlL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Save the Humans.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Nebicin-PC\Nebica" issuerKeyHash="fa278eca9e8e73729b2533d134966e1c28fc3c80" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aVwLAbkeQNmR3qqldkxTEuNcVDVrfZiatP/b8XPXXPs=</DigestValue></Reference></SignedInfo><SignatureValue>MoSFN+D4ywZXE/3Wt6U63qjVGJNWbeBPVeHu2YP3NY580MkIzVTQP/Ptc5n0z+shXjC+qasUNYJyW5M7UmMsujjSmnFY0rQ5aW2f1jOinVNx7glpVOSn1T/w1uCUJk1JmMtIwmCb6EL8+g15IOp62oXyu9MNRuBtzfhYbIUmdvM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t3qeR8AlkPPv8a8hXQZGhTbO2ZFn9enmBVwap33NIHX1CcKqSCA8OqqvlRJavrtP9XpPIdXgewNO/AhCl/Hmob3TYi9Y0ggeGCK9FnvnDQrvYUYF9hX/GoKMuw7ozMeUGqsyGjbig/nmE1GkcQlv0/GhtjgckXYuwp4rGQ6pVYE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fb5cd773f1dbffb49a987d6b35545ce312534c76a5aade91d9401eb9010b5c69" Description="" Url=""><as:assemblyIdentity name="Save the Humans.exe" version="1.0.0.0" publicKeyToken="90c98a3d953c08ef" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Nebicin-PC\Nebica</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D/AD3E2aXBdfbk+J7SC7HvZS+VwO77PwUpnLPEXiqpY=</DigestValue></Reference></SignedInfo><SignatureValue>UTL6OyFwhpWmBxXc7j4b4pnzxwncCTOoKObf0ErKHLPmUxHKt9k9bOfayNjTETBnueuQWHdV+ooBYF840WGlBdGY95SqXV5EtMU8/U6H8Jm2Q5yiR7BUJ/rDu4ri4XrS4CNhrwfIIwViVmq801Ko1QIpngZ19BqLv82x84PNPM4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t3qeR8AlkPPv8a8hXQZGhTbO2ZFn9enmBVwap33NIHX1CcKqSCA8OqqvlRJavrtP9XpPIdXgewNO/AhCl/Hmob3TYi9Y0ggeGCK9FnvnDQrvYUYF9hX/GoKMuw7ozMeUGqsyGjbig/nmE1GkcQlv0/GhtjgckXYuwp4rGQ6pVYE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQGo1iNOndRrdCsJorowYrfTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATgBlAGIAaQBjAGkAbgAtAFAAQwBcAE4AZQBiAGkAYwBhMB4XDTE0MTIwOTAwNDMxMVoXDTE1MTIwOTA2NDMxMVowLTErMCkGA1UEAx4iAE4AZQBiAGkAYwBpAG4ALQBQAEMAXABOAGUAYgBpAGMAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAt3qeR8AlkPPv8a8hXQZGhTbO2ZFn9enmBVwap33NIHX1CcKqSCA8OqqvlRJavrtP9XpPIdXgewNO/AhCl/Hmob3TYi9Y0ggeGCK9FnvnDQrvYUYF9hX/GoKMuw7ozMeUGqsyGjbig/nmE1GkcQlv0/GhtjgckXYuwp4rGQ6pVYECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBduuiUHZ24vWd7nV/CKwhu1zBPwHNj1oCoLcKiTH7S7PXsUa0T13lrfvmMs9IXUgW/pDJV/ZXl3DezOABXFqKVHVe2BcE1yE3EGTp2s3RPtm/+Yst74mibmDXaFKXfyA1ugRZlA/cIh1iyghMO+2DtZu7dXYWHXFoa0pXVk2skpg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
